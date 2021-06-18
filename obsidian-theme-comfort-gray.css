@@ -1,0 +1,64 @@
+.theme-dark {
+    --text-normal: #a9b2c0;   
+    --text-accent: #d38e4e;             
+    --text-accent-hover: #cc7422;
+    
+    --text-color-strong: #cca762;
+
+    --background-primary: #232831;          
+    --background-primary-alt: #1b2027;
+    --background-secondary: #2a2e35;
+    --background-secondary-alt: #232831;
+
+    --interactive-accent: #da8a40;
+    --interactive-accent-rgb: 218, 138, 64;
+    --interactive-accent-hover: var(--interactive-accent);
+
+    --graph-text: var(--text-normal);
+    --graph-line: #4f5358;
+    --graph-fill-highlight: #da8a40;
+    --graph-line-highlight: #fbaa5eb0;
+    --graph-fill-unresolved: #d45c64;
+}
+
+/*========== Настройка жирного текста ==========*/
+
+strong {
+    color: var(--text-color-strong);
+}
+
+/*========== Настройка вида графа ==========*/
+/* Данные селекторы достал из официального хэлпа
+.graph-view.color-fill                                  - Заливка цветом
+.graph-view.color-fill-tag (theme-dependent)            - Заливка цветом тега
+.graph-view.color-fill-attachment (theme-dependent)     - Заливка цветом вложения
+.graph-view.color-arrow                                 - Заливка цветом стрелки
+.graph-view.color-circle                                - Заливка цветом круга
+.graph-view.color-line                                  - Заливка цветом линии
+.graph-view.color-text                                  - Заливка цветом текста
+.graph-view.color-fill-highlight                        - Заливка круга при выделении
+.graph-view.color-line-highlight                        - Заливка ближайших линий при выделении круга
+.graph-view.color-fill-unresolved                       - Заливка ещё несуществующих заметок
+.graph-controls
+*/
+
+.graph-view.color-text {
+    color: var(--graph-text);
+}
+
+.graph-view.color-line {    
+    color: var(--graph-line);
+}
+
+.graph-view.color-fill-highlight {
+    color: var(--graph-fill-highlight);
+}
+
+.graph-view.color-line-highlight {
+    color: var(--graph-fill-highlight);
+}
+
+.graph-view.color-fill-unresolved {
+    color: var(--graph-fill-unresolved);
+    opacity: 1;
+}
