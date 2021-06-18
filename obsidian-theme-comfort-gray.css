@@ -27,6 +27,18 @@
     --default-font: 'HelveticaNeue', 'Helvetica Neue', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
 
+/*========== Настройка отображения ссылок ==========*/
+
+a,
+.markdown-preview-view .internal-link {
+    text-decoration: none;
+}
+
+a:hover,
+.markdown-preview-view .internal-link:hover {
+    text-decoration: underline;
+}
+
 /*========== Настройка жирного текста ==========*/
 
 strong {
