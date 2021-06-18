@@ -7,8 +7,8 @@
 
     --background-primary: #232831;          
     --background-primary-alt: #1b2027;
-    --background-secondary: #2a2e35;
-    --background-secondary-alt: #232831;
+    --background-secondary: var(--background-primary);
+    --background-secondary-alt: var(--background-primary);
 
     --interactive-accent: #da8a40;
     --interactive-accent-rgb: 218, 138, 64;
