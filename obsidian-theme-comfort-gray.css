@@ -19,6 +19,8 @@
     --graph-fill-highlight: #da8a40;
     --graph-line-highlight: #fbaa5eb0;
     --graph-fill-unresolved: #d45c64;
+    --graph-fill-attachment: #957437;
+    --graph-fill-tag: #1a6633;
 }
 
 /*========== Настройка жирного текста ==========*/
@@ -61,4 +63,12 @@ strong {
 .graph-view.color-fill-unresolved {
     color: var(--graph-fill-unresolved);
     opacity: 1;
+}
+
+.graph-view.color-fill-attachment {
+    color: var(--graph-fill-attachment) !important;
+}
+
+.graph-view.color-fill-tag {
+    color: var(--graph-fill-tag) !important;
 }
