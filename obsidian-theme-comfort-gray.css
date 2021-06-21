@@ -1,13 +1,13 @@
 .theme-dark {
-    --text-normal: #a9b2c0;   
-    --text-accent: #d38e4e;             
+    --text-normal: #a9b2c0;
+    --text-accent: #d38e4e;
     --text-accent-hover: #cc7422;
-    
+
     --text-color-strong: #cca762;
 
-    --background-primary: #232831;          
+    --background-primary: #232831;
     --background-primary-alt: #1b2027;
-    --background-secondary: var(--background-primary);
+    --background-secondary: #2e333a;
     --background-secondary-alt: var(--background-primary);
 
     --interactive-accent: #da8a40;
@@ -64,7 +64,7 @@ strong {
     color: var(--graph-text);
 }
 
-.graph-view.color-line {    
+.graph-view.color-line {
     color: var(--graph-line);
 }
 
