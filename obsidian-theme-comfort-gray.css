@@ -1,16 +1,16 @@
 .theme-dark {
     --text-normal: #a9b2c0;
-    --text-accent: #d38e4e;
-    --text-accent-hover: #cc7422;
+    --text-accent: #c58a53;
+    --text-accent-hover: #b58f6b;
 
     --text-color-strong: #cca762;
 
-    --background-primary: #232831;
-    --background-primary-alt: #1b2027;
-    --background-secondary: #2e333a;
+    --background-primary: #101217;
+    --background-primary-alt: #000000;
+    --background-secondary: #16191f;
     --background-secondary-alt: var(--background-primary);
 
-    --interactive-accent: #da8a40;
+    --interactive-accent: #925721;
     --interactive-accent-rgb: 218, 138, 64;
     --interactive-accent-hover: var(--interactive-accent);
 
